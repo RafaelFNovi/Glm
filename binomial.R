@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(plotly)
 
-dataset <- read_excel("C:/Users/r316998/OneDrive - Cargill Inc/San Antonio/Bases/Matriz Nutron 2019-2021.xlsx", 
+dataset <- read_excel("C:/Users/r316998/OneDrive - Cargill Inc/San Ant.xlsx", 
                       sheet = "Inputs", skip = 1)
 
 dataset <- dataset %>% select("Pollito 1ra Real","Edad","lote",
